@@ -124,4 +124,3 @@ print('Índice mínimo de cada columna:', indices_minimos)
 datos_estandarizados = standardize(X)
 print('Columnas centradas y escaladas:')
 print(datos_estandarizados)
-

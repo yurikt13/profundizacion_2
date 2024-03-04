@@ -123,4 +123,4 @@ staked = pd.melt(users, id_vars="name", var_name="variable", value_name="value")
 # print(staked)
 
 #formato largo-ancho
-print(staked.pivot(index="name", columns="variable", values="value", index=["A", "B", "C", "D", "E", "F", "G"]))
+print(staked.pivot(index="name", columns="variable", values="value"))
